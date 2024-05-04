@@ -40,12 +40,18 @@ const page = async() => {
     const newCookies = cookies();
     let nav1 = false
 
-    // const data1 = await fetchData1();
-    // const data2 = await fetchData2();
+    // const data1 = fetchData1();
+    // const data2 = fetchData2(); 
+    // üsttekinin await kısımlarını sildim ve 
+    // aşağıda bir yapı tanımlayacağım.
 
+    // const resultData = await Promise.all([
+    //      data1,
+    //      data2
+    // ])
 
-    // console.log(data1, "data1");
-    // console.log(data2, "data2");
+    // yazdığım console.log yapılarını silip yerine alttakini yazıcam
+    // console.log(resultData, "resultData");
 
     if(nav1){
         redirect('/about')
