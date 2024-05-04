@@ -4,9 +4,9 @@ import { useSearchParams, usePathname } from "next/navigation";
 
 const page = () => {
     const searchParams = useSearchParams();
-    const name = searchParams.get('name')
+    const name = searchParams.get('surname');
     const pathname = usePathname();
-    console.log(name, "name")
+    console.log(name, "name");
     return (
         <div>page about</div>
     )

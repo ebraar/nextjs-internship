@@ -22,10 +22,15 @@ const sleep = (ms) => {
     return new Promise((resolve) => setTimeout(resolve, ms))
 }
 
-// const fetchData = async () => {
+// const fetchData1 = async () => {
 //     const res = await fetch('https://restcountries.eu/rest/v2/name/eesti')
 //     //bunu çektikten sonra (fetch) res içerisinde tutulacak.
 //     return res.json();
+// }
+
+// const fetchData2 = async () => {
+//      const res = await fetch('https://restcountries.com/v3.1/name/united')
+//      return res.json();
 // }
 
 
@@ -35,8 +40,12 @@ const page = async() => {
     const newCookies = cookies();
     let nav1 = false
 
-    // const data = await fetchData();
-    // console.log(data, "data");
+    // const data1 = await fetchData1();
+    // const data2 = await fetchData2();
+
+
+    // console.log(data1, "data1");
+    // console.log(data2, "data2");
 
     if(nav1){
         redirect('/about')

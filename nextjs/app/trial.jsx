@@ -9,9 +9,9 @@ const Trial = () => {
     return (
         <>
         <div onClick={() => routerRed.push('/about')}>Push</div>
-        <div onClick={() => routerRed.back()}>Push</div>
-        <div onClick={() => routerRed.forward()}>Push</div>
-        <div onClick={() => routerRed.refresh()}>Push</div>
+        <div onClick={() => routerRed.back()}>Push</div> 
+        <div onClick={() => routerRed.forward()}>Push</div> 
+        <div onClick={() => routerRed.refresh()}>Push</div> 
         </>
     );
 }
